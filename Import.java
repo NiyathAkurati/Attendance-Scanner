@@ -88,7 +88,7 @@ public class Import {
             Name importedNames = new Name(justTheNames);
         
         } catch(Exception e) {
-            System.out.println("NOOOOOOOOO"); // error reading file
+            System.out.println("Unable to Read File"); // error reading file
         }
 
         // Return the dataset
