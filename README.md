@@ -28,11 +28,13 @@ The **Attendance Scanner** is a Java-based project designed to streamline classr
    ```bash
    git clone https://github.com/NiyathAkurati/attendance-scanner.git
    
-2. Compile the Java files: javac *.java
+2. Compile the Java files:
+javac *.java
    
-3.Run the program: java Runner
+3.Run the program: 
+java Runner
 
-Example Flow: 
-Launch the program via Runner.
-Students scan their IDs.
-Names are automatically displayed in the Present/Absent panels when a csv file is imported.
+## Example Flow
+1. Launch the program via `Runner`.
+2. Import a CSV file that contains student names; the names are added to the Absent section.
+3. Students scan their IDs, and their names are automatically moved to the Present section.
